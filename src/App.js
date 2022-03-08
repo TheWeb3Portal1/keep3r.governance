@@ -46,7 +46,7 @@ class App extends Component {
   state = {
     loading: [],
     transactions: store.getStore('transactions'),
-    shutdownNoticeOpen: true,
+    shutdownNoticeOpen: false,
   };
 
   componentWillMount() {
